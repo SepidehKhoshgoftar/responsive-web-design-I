@@ -152,19 +152,20 @@ button {
 footer .copyright {
   text-align: center;
 }
+  
 @media(max-width: 650px) {
   .container {
     width: 650px;  
-    float:center;
-      margin-right: 30px;
-   }
-   .top-image{
-    float:center;
-   }
+      
+    }
  
   .header{
-    margin-top: 80px;
+    margin-top: 50px;
     
+  }
+  .top-image {
+    float:center;
+    margin-right: 200px;
   }
   .nav-item {
     margin-top: 30px;
@@ -180,12 +181,51 @@ footer .copyright {
     width: 0px;
     height: 0px;
   }
-  .top-container down-container{
-    display: flex;
-    flex-direction:column;
+  h1 {
+    margin-right: 140px;
   }
-  
- 
+  button {
+    margin-left: 200px;
+    background-color: white;
+    
+  }
+  .middle-img{
+    float: right;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  .top-container {
+    height: 250px;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-bottom: 50px;
+    
+  }
+  .top-text{
+    
+    width: 300px;
+    height: 5px;
+  }
+  .down-container{
+    height: 250px;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-bottom: 2px solid black;
+  }
+  .down-text{
+    width: 200px;
+    height: 100px;
+  }
 }
 
 
